@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductApi</name>
+    </assembly>
+    <members>
+        <member name="M:ProductApi.Controllers.ProductController.Create(ProductApi.Application.Features.ProductFeatures.Commands.CreateProductCommand)">
+            <summary>
+            Creates a New Product.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductApi.Controllers.ProductController.GetByFilter(System.String)">
+            <summary>
+            Gets Products by Filter.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProductApi.Controllers.ProductController.GetById(System.Int32)">
+            <summary>
+            Gets Product Entity by Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductApi.Controllers.ProductController.Delete(System.Int32)">
+            <summary>
+            Deletes Product Entity based on Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductApi.Controllers.ProductController.Update(System.Int32,ProductApi.Features.ProductFeatures.Commands.UpdateProductCommand)">
+            <summary>
+            Updates the Product Entity based on Id.   
+            </summary>
+            <param name="id"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

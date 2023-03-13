@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  productapi:
+    image: ${DOCKER_REGISTRY-}productapi
+    build:
+      context: .
+      dockerfile: ProductApi/Dockerfile
+    ports:
+      - 44310:80
+      - 44311:443
